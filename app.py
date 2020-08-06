@@ -38,11 +38,11 @@ def get_bot_response():
         return str(df.Answer.iloc[closest].values[0])
   
          
-if __name__ == '__main__':
+''' if __name__ == '__main__':
     port = int(os.getenv('PORT'))
     print("Starting app on port %d" % port)
-    app.run(debug=False, port=port, host='0.0.0.0')
+    app.run(debug=False, port=port, host='0.0.0.0') '''
 
 # running the app on the local machine on port 5000
-'''if __name__ == "__main__":
-    app.run(port=5000, debug=True)'''
+if __name__ == "__main__":
+    app.run(port=5000, debug=True)
