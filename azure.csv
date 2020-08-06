@@ -1,0 +1,55 @@
+Question,Answer
+Hello,Hello
+How are you?,I'm fine thanks.
+Good morning,"Hello, good morning."
+Bye,"Bye, glad to have helped."
+What is machine learning?,"Machine learning is a data science technique used to extract patterns from
+data, allowing computers to identify related data, and forecast future
+outcomes, behaviors, and trends"
+what is Azure?,"Microsoft Azure is an ever-expanding set of cloud services to help your organization meet your business challenges. It's the freedom to build, manage, and deploy applications on a massive, global network using your favorite tools and frameworks."
+Describe the data science process,"Collect data, prepare data, train model, evaluate model, deploy model"
+What is a model?,Models are the specific representations learned from data
+What is an algorithm?,Algorithms are the processes of learning
+thank you for your time,"You're welcome, is there anything else I can help you"
+What is regression?,"Regression takes a group of random variables, thought to be predicting Y, and tries to find a mathematical relationship between them. This relationship is typically in the form of a straight line (linear regression) that best approximates all the individual data points"
+What is classification?,"In machine learning, classification refers to a predictive modeling problem where a class label is predicted for a given example of input data. Examples of classification problems include: Given an example, classify if it is spam or not. Given a handwritten character, classify it as one of the known characters"
+What is clustering?,"Clustering is a Machine Learning technique that involves the grouping of data points. ... In theory, data points that are in the same group should have similar properties and/or features, while data points in different groups should have highly dissimilar properties and/or features"
+What is supervised machine learning?,Learning from data contain both inputs and the expected outputs
+What is unsupervised machine learning?,Learning from data contain only inputs and finds hidden structures in the data
+What is Azure machine learning studio,Azure Machine Learning Studio is web-based integrated development environment (IDE) for developing data experiments. It is closely knit with the rest of Azure's cloud services and that simplifies development and deployment of machine learning models and services.
+What is deep learning?,kindly use the 'forgot password' on the login page
+What is a vector?,"A vector is simply an array of numbers, such as (1, 2, 3)—or a
+nested array that contains other arrays of numbers, such as (1, 2,
+(1, 2, 3))."
+Good afternoon,good afternoon how are you?
+Good evening,good evening how are you?
+What is reinforcement learning?,Learning how an agent should take action in order to maximise a reward function
+What is bias?,Bias measures how inaccurate the model prediction is in comparison with the true output. It is due to erroneous assumptions made in the machine learning process to simplify the model and make the target function easier to learn. High model complexity tends to have a low bias.
+What is variance?,"Variance measures how much the target function will change if different
+training data is used. Variance can be caused by modeling the random
+noise in the training data. High model complexity tends to have a high
+variance."
+What is deep learning?,Deep learning is a subset of machine learning in artificial intelligence that has networks capable of learning unsupervised from data that is unstructured or unlabeled. Also known as deep neural learning or deep neural network
+What is Artificial Intelligence?,"the theory and development of computer systems able to perform tasks normally requiring human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages."
+What is overfitting?,"Overfitting refers to the situation in which models fit the training data
+very well, but fail
+to generalize to new data"
+What is underfitting?,"Underfitting refers to the situation in which models neither fit the
+training data nor generalize to new data."
+What is a datastore in a azure ml studio?,"It is the actual storage of the data   * Abstraction from storage medium or compute resource
+* Increased security
+* Support a wide variety of cloud storage modes"
+What is a dataset in Azure ml studio?,"It is a window to the store data * Specific sets of files
+* Can point to datastores
+* Can track data versions"
+What is feature engineering?,"Feature engineering - the process of adding new features or removing unnecessary ones - can be performed at the data source, during data ingestion, through the manipulation process, even during the training process if the model algorithm creates new features itself and uses them as part of the trained model."
+What is dimensionality reduction?,"When you have a large number of features / columns, the dataset is said to have high dimensionality. Why is this bad? Because as you increase the number of dimensions, the distance between points increases, eventully getting to a point where points are so far apart that identifying similarities and patterns becomes almost meaningless."
+What is data drift?,"In the real world, input data doesn't stay the same. Things change. A solution must be able to measure change in the input data, else the model will no longer reflect the right patterns."
+What is ensemble learning?,"Combining multiple algorithms for better results,There are 3 types, Bootstrap Aggregation (Bagging) means training multiple models on subsamples of the training data and averaging the predictions.
+Boosting means training multiple models using the same training data but different hyperparameters.
+Stacking means training multiple models using different algorithms and combining the outputs"
+What is Automated Machine Learning(AutoML)?,"AutoML uses automation to repeatedly train and score a number of models using different feature sets, cleaning steps, algorithms and hyperparameters, etc. We can then review the scores and pick the model that performed the best based on our use case."
+What is the designer in Azure Machine Learning?,The designer is a drag-and-drop tool that lets you create machine learning models without a single line of code.
+What is an Azure machine learning pipeline?,"Azure Machine Learning pipelines organize multiple machine learning and data processing steps into a single resource. Pipelines let you organize, manage, and reuse complex machine learning workflows across projects and users."
+What is an Azure machine learning workspace?," The workspace is the top-level resource for Azure Machine Learning, it provides a centralized place to work with all the artifacts you create in Azure Machine Learning."
+What are some applications of machine learning?,"Product recommendation, social media features, computer vision, sentiment analysis, revenue forecasting among others"
