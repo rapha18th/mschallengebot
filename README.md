@@ -1,7 +1,7 @@
 # Azure Machine Learning Scholarship bot
 
 ## How to run on your Local Machine
-git clone https://github.com/rapha18th/zimrabot.git
+git clone https://github.com/rapha18th/mschallengebot.git
 
 ### Create and activate virtual environment
 pip install virtual env && virtualenv env/msenv
