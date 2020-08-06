@@ -25,7 +25,7 @@ def get_bot_response():
         # Read user input
         userText = request.args.get('msg')
 
-        # Locate the closest question
+        # vectorise input
         input_question_vector = vectorizer.transform([userText])
 
         # Compute similarities
@@ -34,7 +34,7 @@ def get_bot_response():
         # Find the closest question
         closest = np.argmax(similarities, axis=1)
 
-        # Print the correct answer
+        # print the result
         return str(df.Answer.iloc[closest].values[0])
   
          
