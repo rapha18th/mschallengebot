@@ -17,7 +17,7 @@ What is clustering?,"Clustering is a Machine Learning technique that involves th
 What is supervised machine learning?,Learning from data contain both inputs and the expected outputs
 What is unsupervised machine learning?,Learning from data contain only inputs and finds hidden structures in the data
 What is Azure machine learning studio,Azure Machine Learning Studio is web-based integrated development environment (IDE) for developing data experiments. It is closely knit with the rest of Azure's cloud services and that simplifies development and deployment of machine learning models and services.
-What is deep learning?,kindly use the 'forgot password' on the login page
+What is deep learning?,Deep learning is an AI function that mimics the workings of the human brain in processing data for use in detecting objects, recognizing speech, translating languages, and making decisions. Deep learning AI is able to learn without human supervision, drawing from data that is both unstructured and unlabeled.
 What is a vector?,"A vector is simply an array of numbers, such as (1, 2, 3)—or a
 nested array that contains other arrays of numbers, such as (1, 2,
 (1, 2, 3))."
