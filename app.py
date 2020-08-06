@@ -7,12 +7,16 @@ import os
 
 app = Flask(__name__)
 
+# read the document
 df = pd.read_csv("azure.csv")
 df.dropna(inplace=True)
 
+#create the transform
 vectorizer = TfidfVectorizer()
+# the fit() function in order to learn a vocabulary 
 vectorizer.fit(np.concatenate((df.Question, df.Answer)))
 
+# the transform() function the questions as needed to encode each as a vector
 Question_vectors = vectorizer.transform(df.Question)
 
 @app.route("/")
