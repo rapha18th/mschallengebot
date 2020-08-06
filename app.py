@@ -7,7 +7,7 @@ import os
 
 app = Flask(__name__)
 
-df = pd.read_csv("dummy.csv")
+df = pd.read_csv("azure.csv")
 df.dropna(inplace=True)
 
 vectorizer = TfidfVectorizer()
