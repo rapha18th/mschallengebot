@@ -4,7 +4,7 @@
 git clone https://github.com/rapha18th/mschallengebot.git
 
 ### Create and activate virtual environment
-pip install virtual env && virtualenv env/msenv
+pip install virtualenv && virtualenv env/msenv
 
 source env/msenv/bin/activate
 
